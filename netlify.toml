@@ -1,4 +1,3 @@
 [build]
   command = "npm run build"
-  publish="/Users/rowan/Workspace/walshrnetlify/walshr15netlify/build"
-  base = "/Users/rowan/Workspace/walshrnetlify/walshr15netlify"
+  
