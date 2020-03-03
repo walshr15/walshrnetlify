@@ -40,7 +40,7 @@ import Header from '/Users/rowan/Workspace/walshrnetlify/walshr15netlify/src/Com
             </div>
 
             <div>
-            <iframe class="youtubeMobile" width="445" height="250" src="https://www.youtube.com/embed/videoseries?list=PLJont-VghyhWdLdiV-nEEPrit3oHArfb8"
+            <iframe class="youtubeMobile" width="356" height="200" src="https://www.youtube.com/embed/videoseries?list=PLJont-VghyhWdLdiV-nEEPrit3oHArfb8"
             frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
 
