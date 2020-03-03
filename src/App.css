@@ -55,7 +55,7 @@ footer {
   color: black;
   text-align: center;
   height: 50px;
-  padding-top: 10px;
+  padding-top: 20px;
 }
 
 footer1 {
@@ -67,7 +67,8 @@ footer1 {
   color: black;
   text-align: center;
 
-  padding-top: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 h1 {
@@ -112,9 +113,16 @@ p3 {
 }
 
 p4 {
+  align: center;
+  position: relative;
   text-align: center;
-  margin-left: 10;
-  margin-right: 10;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.textMobile {
+  border: 0px solid #ccc;
+  padding: 15px;
 }
 
 p5 {
@@ -222,6 +230,10 @@ p5 {
 
 .youtube {
   margin-top: 50px;
+}
+
+.youtubeMobile {
+  margin-top: 30px;
 }
 
 .imageMobile {

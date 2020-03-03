@@ -53,7 +53,7 @@ import {
             <Projects/>
             <p5>Email me at <a href="mailto: walshr2319@gmail.com">walshr2319@gmail.com</a> for my full CV or for any other information!</p5>
             </div>
-            <footer1/>
+            <footer1>Thanks for visiting! Be sure to check out the rest of my pages!</footer1>
           </div>
 
         );
@@ -70,8 +70,7 @@ import {
            <br/><br/>Check out the cool stuff below if you want to know more!</p2>
         <Projects/>
           <p3>Email me at <a href="mailto: walshr2319@gmail.com">walshr2319@gmail.com</a> for my full CV or for any other information!</p3>
-        <footer>Thanks for visiting! Be sure to check out the rest of my pages!<br/>
-                I am actively working on having this webpage mobile/tablet friendly!</footer>
+        <footer>Thanks for visiting! Be sure to check out the rest of my pages!</footer>
         </div>
       );
     }
