@@ -7,6 +7,7 @@ import Pam from './Components/PAMComponent/pam';
 import Sam from './Components/SAMComponent/sam';
 import Mam from './Components/MAMComponent/mam';
 
+
 import {
   BrowserRouter as Router,
   Switch,
@@ -14,16 +15,23 @@ import {
   Link
 } from "react-router-dom";
 
+import { Helmet } from 'react-helmet';
+
+const TITLE = 'Rowan Walsh';
+
 
   class App extends Component {
     render(){
       return(
         <Router>
           <div className="App">
-              <Route path="/" exact component={Home}/>
-              <Route path="/pam" component={Pam}/>
-              <Route path="/sam" component={Sam}/>
-              <Route path="/mam" component={Mam}/>
+            <Helmet>
+              <title>{ TITLE }</title>
+            </Helmet>
+            <Route path="/" exact component={Home}/>
+            <Route path="/pam" component={Pam}/>
+            <Route path="/sam" component={Sam}/>
+            <Route path="/mam" component={Mam}/>
           </div>
         </Router>
       );

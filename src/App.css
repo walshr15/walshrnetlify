@@ -111,30 +111,86 @@ p3 {
   top: 130px;
 }
 
+p4 {
+  text-align: center;
+  margin-left: 10;
+  margin-right: 10;
+}
+
+p5 {
+  position: relative;
+  top: 30px;
+  bottom: 100px;
+
+}
+
+.Sheet {
+  margin-bottom: 100px;
+  z-index: 999;
+}
+
 .Fields {
 
+}
+
+.ProjectsMobile {
+  margin-top: 30px;
+  margin-bottom: 0px;
 }
 
 .LearnMore {
   margin-top: -40px;
 }
 
+.LearnMoreMobile {
+  margin-top: 40px;
+  margin-bottom: 100px;
+}
+
 .RWImage {
   margin-top: -60px;
-  padding-left: 60px;
+  /* padding-left: 60px; */
+  display: flex;
+  justify-content: center;
+}
+
+.RWImageMobile {
+  display: flex;
+  justify-content: center;
 }
 
 .FootyImage {
   margin-top: -60px;
-  padding-left: 60px;
+  /* padding-left: 60px; */
+  display: flex;
+  justify-content: center;
+}
+
+.FootyImageMobile {
+  display: flex;
+  justify-content: center;
 }
 
 .MusicImage {
   margin-top: -60px;
-  padding-left: 60px;
+  /* padding-left: 60px; */
+  display: flex;
+  justify-content: center;
+}
+
+.MusicImageMobile {
+  display: flex;
+  justify-content: center;
 }
 
 .column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  margin-top: 60px;
+}
+
+.column2 {
   float: left;
   width: 33.33%;
   padding: 5px;
@@ -166,4 +222,14 @@ p3 {
 
 .youtube {
   margin-top: 50px;
+}
+
+.imageMobile {
+  margin-top: 20px;
+  margin-bottom: -20px;
+}
+
+.andMeMobile {
+  margin-top: 50px;
+  margin-bottom: 0px;
 }
