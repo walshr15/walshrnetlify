@@ -46,10 +46,12 @@ import {
             <Header></Header>
             <div class="Sheet">
             <h3><b>Programming & Me.</b></h3>
+            <div class="textMobile">
             <p4>I am a Computer Science & Business graduate from Trinity College Dublin having sat my final exams
                in May 2018. Currently, I am pursuing <br/>a career in software engineering as I love to write code and want
                to practice it as a full-time job. <br/>I have no doubt that I will go far in this career path.
                <br/><br/>Check out the cool stuff below if you want to know more!</p4>
+            </div>
             <Projects/>
             <p5>Email me at <a href="mailto: walshr2319@gmail.com">walshr2319@gmail.com</a> for my full CV or for any other information!</p5>
             </div>
