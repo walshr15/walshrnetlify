@@ -44,19 +44,19 @@ import { TwitterTimelineEmbed, TwitterShareButton, TwitterFollowButton, TwitterH
               I'm a huge Everton fan, and play my own football for CYM Beechwood!</p4>
             </div>
             <div class="TwitterMobile">
-              <div className="selfCenter" style={{width: 250,height: 375,margin: 0}}>
+              <div className="selfCenter" style={{width: 250,height: 375,margin: 60}}>
                 <TwitterTimelineEmbed sourceType="profile" screenName='everton' autoHeight />
               </div>
             </div>
 
             <div class="TwitterMobile">
-              <div className="selfCenter" style={{width: 250,height: 375,margin: 0}}>
+              <div className="selfCenter" style={{width: 250,height: 375,margin: 60}}>
                 <TwitterTimelineEmbed sourceType="profile" screenName="cymbeechwood" autoHeight />
               </div>
             </div>
 
             <div class="TwitterMobile">
-              <div className="selfCenter" style={{width: 250,height: 375,margin: 0}}>
+              <div className="selfCenter" style={{width: 250,height: 375,margin: 60}}>
                 <TwitterTimelineEmbed sourceType="profile" screenName="premierleague" autoHeight />
               </div>
             </div>
